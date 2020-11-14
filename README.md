@@ -39,8 +39,8 @@ BiliExp-Actions
         ```
         SESSDATA(账号1)
         bili_jct(账号1)
-        uid(账号1)
-		uid(账号2)
+        dedeuserid(账号1)
+		dedeuserid(账号2)
 		bili_jct(账号2)
 		SESSDATA(账号2)
 		(多个账户继续加在后面，不用考虑每个账号三个参数的先后顺序)
@@ -55,7 +55,7 @@ BiliExp-Actions
 		dfs425cc53856351d4d5195f5ddbakb2
         e1412354%afdoii534825%2Cbbc06*a1
         ```
-		注：每行一个cookie项(SESSDATA bili_jct uid或者空行)，***不规定顺序***但必须一个账户三个参数填完才能填下一个账户的参数
+		注：每行一个cookie项(SESSDATA bili_jct dedeuserid或者空行)，***不规定顺序***但必须一个账户三个参数填完才能填下一个账户的参数
 		![image](https://user-images.githubusercontent.com/67217225/98549976-73700900-22d6-11eb-9356-22802456da50.png)
         *  2.1.2 (可选)name为"push_message"           value为推送SCKEY或email用于消息推送，格式如下
         ```
